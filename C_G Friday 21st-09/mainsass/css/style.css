@@ -1,0 +1,419 @@
+/*// peach*/
+/*gold*/
+/*gold button font size*/
+/*menu button font size*/
+/*Drinks buttons*/
+.btn__feedback--back {
+  width: 187.5px;
+  height: 50px;
+  display: block;
+  background-color: white;
+  border: 2px solid #F2E4CD;
+  color: #AFA365;
+  font-size: 0.9em; }
+
+.btn__gold--add2order {
+  background-color: #AFA365;
+  width: 187.5px;
+  height: 50px;
+  font-size: 0.9em;
+  color: white;
+  display: block; }
+
+/*brunch buttons*/
+.btn__top--peach {
+  width: 187.5px;
+  height: 187.5px;
+  display: block;
+  background-color: #F2E4CD;
+  border: none;
+  font-size: 1.5em;
+  font-family: Georgia;
+  color: #AFA365; }
+
+.btn__top--halfpeach {
+  width: 187.5px;
+  height: 187.5px;
+  display: block;
+  background-color: rgba(242, 228, 205, 0.5);
+  border: none;
+  font-size: 1.5em;
+  font-family: Georgia;
+  color: #AFA365;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  padding-top: 0px; }
+
+.btn__btm--white {
+  height: 10px;
+  width: 30%;
+  text-align: center;
+  margin: auto; }
+
+#order {
+  float: right;
+  padding-top: 6%; }
+
+/* Home */
+.btn__btm--gold {
+  background-color: #AFA365;
+  width: 200px;
+  height: 50px;
+  font-size: 0.9em;
+  color: white;
+  display: block;
+  margin: 20px auto;
+  padding: 20px 0; }
+
+.select__drink--coffee {
+  font-family: Verdana;
+  font-size: 0.8em;
+  float: left;
+  padding-left: 20%;
+  padding-top: 3%;
+  line-height: 200%; }
+
+.select__drink--tea {
+  font-family: Verdana;
+  font-size: 0.8em;
+  float: left;
+  padding-left: 20%;
+  padding-top: 3%;
+  line-height: 200%; }
+
+.bean {
+  width: 15%;
+  height: 53px;
+  float: right; }
+
+.bean {
+  clear: right; }
+
+.leaf__circle {
+  display: inline-block;
+  position: absolute;
+  padding-left: 300px;
+  padding-top: 50px; }
+
+.select__meal {
+  font-family: Verdana;
+  font-size: 0.8em;
+  padding: 2px;
+  float: right; }
+
+#cart1 {
+  font-family: Verdana;
+  font-size: 0.8em;
+  padding-left: 20%;
+  padding-top: 55%; }
+
+#leaf {
+  float: right; }
+
+#leaf {
+  clear: right; }
+
+/* your order */
+.cart2__p--total {
+  width: 40%;
+  font-family: Verdana;
+  font-size: 0.8em;
+  float: right;
+  margin-right: 30px; }
+
+.together {
+  ont-family: Verdana;
+  font-size: 0.8em;
+  float: right; }
+
+.together .cart2__p--total {
+  clear: both; }
+
+#cart2 {
+  padding-left: 20%;
+  padding-top: 20%;
+  padding-bottom: 30%; }
+
+#cart__3 {
+  font-family: Verdana;
+  font-size: 0.8em;
+  padding-top: 10%;
+  padding-left: 10%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.img1 {
+  width: 187.5px;
+  height: 187.5px; }
+
+.tab__heading {
+  color: #AFA365;
+  font-size: 0.9em;
+  float: right;
+  padding: 10%;
+  padding-top: 22%; }
+
+.tab__heading {
+  clear: both; }
+
+#greeting {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  color: #AFA365;
+  font-family: Verdana;
+  font-size: 1.5em;
+  text-align: center; }
+
+#mainlogo {
+  display: block;
+  width: 80%;
+  height: 380px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*/ipad*/
+@media screen and (min-width: 500px) {
+  .cont__logo {
+    width: 90%;
+    height: 50%;
+    margin: auto; }
+
+  .container {
+    display: block;
+    width: 80%;
+    height: 1024px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .container__menu {
+    width: 100%;
+    height: 187.5px; }
+
+  .btn__top--half {
+    width: 33.3%; }
+
+  .btn__top--peach {
+    height: 187.5px;
+    margin-right: 33.3%;
+    float: left; }
+
+  .btn__top--peach {
+    clear: both; }
+
+  #mainlogo {
+    display: block;
+    width: 60%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* drinks */
+  .btn__gold--add2order {
+    background-color: #AFA365;
+    width: 187.5px;
+    height: 50px;
+    font-size: 0.9em;
+    color: white;
+    display: block;
+    float: right; }
+
+  .btn__top--peach {
+    width: 50%;
+    height: 187.5px;
+    background-color: #F2E4CD;
+    border: none;
+    font-size: 1.5em;
+    font-family: Georgia;
+    color: #AFA365;
+    margin: auto;
+    float: right; }
+
+  .btn__top--peach {
+    clear: both; }
+
+  .btn__top--halfpeach {
+    width: 25%;
+    height: 187.5px;
+    background-color: rgba(242, 228, 205, 0.5);
+    border: none;
+    font-size: 1.5em;
+    font-family: Georgia;
+    color: #AFA365;
+    float: left; }
+
+  .btn__top--halfpeach {
+    clear: left; }
+
+  .bean {
+    width: 8%;
+    height: 60px;
+    float: right;
+    margin-right: 100px; }
+
+  .bean {
+    clear: right; }
+
+  #cart1 {
+    font-family: Verdana;
+    font-size: 0.8em;
+    padding-left: 20%;
+    padding-top: 25%; }
+
+  #leaf {
+    padding-left: 600px; }
+
+  /* brunch */
+  .menu {
+    width: 100%;
+    height: 812px;
+    background-color: #F2E4CD;
+    padding: 20px;
+    margin: auto;
+    border-box: 0px; } }
+/*desktop*/
+@media screen and (min-width: 800px) {
+  .cont__logo {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    /*	background:pink;*/ }
+
+  #mainlogo {
+    display: block;
+    width: 30%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto; } }
+/*// Homepage*/
+.container {
+  width: 80%;
+  height: 150px;
+  margin: auto; }
+
+.cont__logo {
+  width: 100%;
+  height: 30%; }
+
+/*// drinks page*/
+.line__horizontal--white {
+  width: 100%;
+  height: 1px;
+  color: white; }
+
+.drinkmenu {
+  width: 100%;
+  height: 280px;
+  background-color: #F2E4CD;
+  padding: 20px;
+  position: relative; }
+
+.tea__container {
+  width: 100%;
+  height: 300px;
+  background-color: #F2E4CD;
+  padding: 20px; }
+
+.footer__cont {
+  width: 100%;
+  height: 20%;
+  float: left;
+  margin: auto; }
+
+.footer__cont {
+  clear: left; }
+
+.btn__footer--drinks {
+  float: left;
+  width: 50%; }
+
+.btn__footer--drinks {
+  clear: left; }
+
+.container__tbl {
+  width: 100%;
+  height: 45px;
+  background-color: #F2E4CD; }
+
+.table {
+  /*// width: 20px;
+  // height: 10px;*/
+  padding: 15px;
+  font-family: Verdana; }
+
+/*// Breakfast brunch menu*/
+.container__menu:after {
+  clear: both;
+  display: table;
+  content: ''; }
+
+.btn__top--half {
+  float: left;
+  width: 50%; }
+
+.btn__top--halfright {
+  padding-right: 300px; }
+
+/* your order */
+.order__selectbox {
+  width: 60%;
+  height: 200px;
+  margin: auto;
+  padding-top: 50px; }
+
+.line__horizontal--peach {
+  width: 100%;
+  height: 1px;
+  background-color: #F2E4CD; }
+
+#selectbox__2 {
+  margin-top: 20%; }
+
+/* payment page */
+.form__container {
+  width: 100%;
+  height: 420px;
+  background-color: #F2E4CD; }
+
+.drink__hd {
+  font-family: Georgia;
+  color: #AFA365;
+  font-size: 0.6em;
+  padding-left: 20%;
+  padding-top: 2%; }
+
+.tea__hd {
+  font-family: Georgia;
+  color: #AFA365;
+  font-size: 0.6em;
+  padding-left: 20%;
+  padding-top: 2%; }
+
+.menu {
+  width: 100%;
+  height: 812px;
+  background-color: #F2E4CD;
+  padding: 20px; }
+
+.meal__hd h2 {
+  font-family: Verdana;
+  font-size: 0.8em; }
+
+.body {
+  font-family: Verdana;
+  font-size: 0.8em; }
+
+/* new order */
+.body__order {
+  font-family: Verdana;
+  font-size: 0.8em;
+  float: right; }
+
+.body__order {
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */

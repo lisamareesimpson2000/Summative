@@ -1,0 +1,100 @@
+/*Drinks buttons*/
+.btn__feedback--back{
+	width: 187.5px;
+	height: 50px;
+	display: block;
+	background-color: white;
+	border: 2px solid $pcolor;
+	color: $scolor;
+	font-size: $bfsize;
+}
+
+.btn__gold--add2order{
+	background-color: $scolor;
+	width: 187.5px;
+	height: 50px;
+	font-size: $bfsize;
+	color: white;
+	display: block;
+
+}
+
+
+/*brunch buttons*/
+
+.btn__top--peach{
+	width: 187.5px;
+	height: 187.5px;
+	display: block;
+	background-color: $pcolor;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor;
+
+}
+
+
+.btn__top--halfpeach{
+	width: 187.5px;
+	height: 187.5px;
+	display: block;
+	// background-color: $pcolor; 
+	background-color: rgba(242,228,205,0.5);
+	// opacity:0.5;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor; 
+	margin:auto;
+	position: absolute;
+	right: 0;
+	padding-top:0px;
+
+}
+
+
+.btn__btm--white{
+	height: 10px;
+	width:30%;
+	text-align: center;
+	margin: auto;
+
+}
+
+.btn__btm--peach{
+	
+}
+
+
+#order{
+	float:right;
+	padding-top:6%;
+}
+
+
+/* Home */
+
+.btn__btm--gold{
+	background-color: $scolor;
+	width: 200px;
+	height: 50px;
+	font-size: $bfsize;
+	color: white;
+	display: block;
+	margin: 20px auto;
+	padding: 20px 0;
+	
+
+
+	
+}
+
+
+
+
+
+
+
+
+

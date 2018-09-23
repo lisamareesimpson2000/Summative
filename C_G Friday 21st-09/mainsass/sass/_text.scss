@@ -1,0 +1,56 @@
+
+
+.drink__hd{
+	font-family: $menuftype;
+	color: $scolor;
+	font-size: 0.6em;
+	padding-left: 20%;
+	padding-top: 2%;
+
+
+}
+.tea__hd{
+	font-family: $menuftype;
+	color: $scolor;
+	font-size: 0.6em;
+	padding-left: 20%;
+	padding-top: 2%;
+}
+
+// Brunch page
+.menu{
+	width: 100%;
+	height: 812px;
+	background-color: $pcolor;
+	padding: 20px;
+}
+
+.meal__hd h2{
+	font-family: $maintext;
+	font-size: $mainsize;
+
+}
+
+
+
+.body{
+	font-family: $maintext;
+	font-size: $mainsize;
+}
+
+/* new order */
+
+.body__order{
+	font-family: $maintext;
+	font-size: $mainsize;
+	float: right;
+	// margin-bottom: 5%;
+}
+
+.body__order{
+	clear: both;
+}
+
+
+
+

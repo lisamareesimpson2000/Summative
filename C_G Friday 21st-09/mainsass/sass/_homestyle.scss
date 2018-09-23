@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+.img1{
+	width: 187.5px;
+	height: 187.5px;
+
+}
+.tab__heading{
+	color: $scolor;
+	font-size: $bfsize;
+	float:right;
+	padding:10%;
+	padding-top: 22%;
+}
+.tab__heading{
+	clear: both;
+}
+
+#greeting{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	color: $fontcolor;
+	font-family: $fonttype;	
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+  #mainlogo{
+  	display: block;
+  	width: 80%;
+  	height: 380px;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+/*/ipad*/
+@media screen and (min-width: 500px){
+.cont__logo{
+		width: 90%; 
+		height: 50%;
+		margin: auto;
+	}
+
+.container{
+	display: block;
+	width: 80%;
+	height: 1024px;
+	margin-left: auto;
+  	margin-right: auto;
+	
+	}
+
+.container__menu{
+	width: 100%;
+	height: 187.5px;
+	}
+.btn__top--half{
+	// margin-left:33.3%;
+	width: 33.3%;
+
+	// width:100%;
+	// float: left;
+	}
+.btn__top--peach{
+	height: 187.5px;
+	margin-right:33.3%;
+	float:left;
+	}
+.btn__top--peach{
+	clear:both;
+}
+
+#mainlogo{
+	display: block;
+  	width: 60% ;
+  	height: 600px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	}
+
+
+ /* drinks */
+
+.btn__gold--add2order{
+	background-color: $scolor;
+	width: 187.5px;
+	height: 50px;
+	font-size: $bfsize;
+	color: white;
+	display: block;
+	float: right;
+
+	}
+
+.btn__top--peach{
+	width: 50%;
+	height: 187.5px;
+	background-color: $pcolor;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor;
+	margin:auto;
+	float: right;
+	}
+.btn__top--peach{
+	clear: both;
+}
+
+.btn__top--halfpeach{
+	width: 25%;
+	height: 187.5px;
+	// display: block;
+	// background-color: $pcolor; 
+	background-color: rgba(242,228,205,0.5);
+	// opacity:0.5;
+	border: none;
+	font-size: $menufsize;
+	font-family: $menuftype;
+	color: $scolor; 
+	// position: absolute;
+	// padding-top:0px;
+	float: left;
+
+	}
+.btn__top--halfpeach{ 
+	clear: left;
+	}
+.bean{
+	width: 8%;
+	height: 60px;
+	float: right;
+	margin-right:100px;
+	}
+.bean{
+	clear: right;
+	}
+
+#cart1{
+	font-family: $maintext;
+	font-size: $mainsize;
+	// padding: 0px;
+	padding-left: 20%;
+	padding-top: 25%;
+	}
+
+#leaf{
+	padding-left: 600px;
+
+	}
+
+/* brunch */
+
+.menu{
+	width: 100%;
+	height: 812px;
+	background-color: $pcolor;
+	padding: 20px;
+	margin: auto;
+	border-box:0px;
+
+	}
+
+}
+
+/*desktop*/
+@media screen and (min-width: 800px){
+	.cont__logo{
+		width: 70%; 
+		height: 600px;
+		margin: auto;
+	/*	background:pink;*/
+	}
+	#mainlogo{
+		display: block;
+  		width: 30% ;
+  		height: 700px;
+  	    margin-left: auto;
+  		margin-right: auto;
+  	}
+
+
+}
+
